@@ -1,0 +1,22 @@
+body {
+    --color-cell-value-1: #002a32;
+    --color-cell-value-2: #119822;
+    --color-cell-value-3: #eb5e28;
+    --color-cell-value-4: #5a0001;
+    --color-cell-value-5: #171219;
+    --color-cell-value-6: #5f5aa2;
+    --color-cell-value-7: #04724d;
+    --color-cell-value-8: #ffa552;
+
+    @media(prefers-color-scheme: dark) {
+        --color-bg: #181818;
+        --color-fg: #c3c3c3;
+        --color-border: #c3c3c3;
+    }
+
+    @media(prefers-color-scheme: light) {
+        --color-bg: #c3c3c3;
+        --color-fg: #181818;
+        --color-border: #181818;
+    }
+}
